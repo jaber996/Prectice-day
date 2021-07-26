@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    /* border: 5px solid rgb(25, 197, 154); */
+}
+.container{    
+    display: flex;
+    margin-bottom: 100px;
+}
+.container-pluse{
+    width: 100%;
+    display: flex;
+    
+}
+.half-width{
+    width: 40%;
+    margin-left: 6%;
+}
+.half-width img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+.two-box{
+    text-align: justify;
+    box-shadow: 5px 5px 50px rgba(25, 197, 154, 0.445);
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.orange-color{
+    color: rgb(15, 185, 143);
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(rgb(72, 253, 208),rgb(21, 145, 114));
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+#full-stack-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(21, 145, 114), rgb(72, 253, 208));
+    border-image-slice: 1;
+    
+}
+#baby-stack-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(72, 253, 208), rgb(21, 145, 114));
+    border-image-slice: 1;
+}
+
+.baby-web img, .full-stack img{
+    width:80%;
+    padding-left: 7%;
+}
+.baby-web, .full-stack{
+    width: 40%;
+    margin-left: 6%;
+    box-shadow: 5px 5px 50px rgba(25, 197, 154, 0.445);
+    border-radius: 10px;
+}
+.buttom-box{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+.buttom-box h2{
+    text-align: center;
+}
+.buttom-box h3{
+    text-align: center;
+}
+.Experiences-item{
+    margin-bottom: 100px;
+}
+
+.footer-img img{
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    text-align: center;
+}
